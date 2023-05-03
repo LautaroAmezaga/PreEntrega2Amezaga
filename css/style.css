@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: black;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.8rem;
+  text-align: center;
+}
+
+.nav-cuenta a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.nav_btn-container {
+  width: 80px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nav_btn-container .nav_btn {
+  background-color: black;
+  border: none;
+  padding: 10px;
+}
+
+#primera-section {
+  padding-top: 1rem;
+}
+
+.img__mate {
+  padding: 1.5rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.button-productos {
+  text-align: center;
+  padding: 1rem;
+}
+
+.button {
+  padding: 10px 150px;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  border: none;
+}
+
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  border: none;
+}
+
+.ofert__title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#segunda-section {
+  padding: 2rem 0 2rem 0;
+}
+
+footer {
+  background-color: black;
+  padding-top: 1rem;
+}
+
+.footer-sm {
+  background-color: #0f2624;
+  color: white;
+}
+
+.footer-sm a {
+  color: white;
+}
+
+.footer-sm a i {
+  margin-left: 1rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-botton__copyright {
+  text-align: center;
+  color: gray;
+  padding: 1rem 0;
+}
+
+.footer-botton__copyright a {
+  color: gray;
+  text-decoration: none;
+}
